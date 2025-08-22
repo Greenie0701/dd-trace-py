@@ -6,7 +6,7 @@ on:
       - trial
       - '[0-9].[0-9]*'
       - '[0-9].x'
-      # special branches used to test this workflow
+      # special branches used to test this 
       # before merging/releasing
       - build_deploy*
       - 'upgrade-latest-*'
