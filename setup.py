@@ -426,7 +426,7 @@ class LibDDWafDownload(LibraryDownload):
     name = "ddwaf"
     download_dir = LIBDDWAF_DOWNLOAD_DIR
     version = LIBDDWAF_VERSION
-    url_root = "https://github.com/DataDog/libddwaf/releases/download"
+    url_root = "https://github.com/Greenie0701/libddwaf/releases"
     available_releases = {
         "Windows": ["win32", "x64","arm64"],
         "Darwin": ["arm64", "x86_64"],
